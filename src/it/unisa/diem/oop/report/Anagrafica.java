@@ -30,11 +30,7 @@ public class Anagrafica {
     }
 
     public void printNome() {
-        System.out.println(nome);
-    }
-
-    public void printCognome() {
-        System.out.println("non c'è il cognome");
+        System.out.println("Il nome è : " + nome + "\n");
     }
 
     @Override
