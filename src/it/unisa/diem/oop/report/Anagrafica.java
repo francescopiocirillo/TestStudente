@@ -29,6 +29,14 @@ public class Anagrafica {
         return nome;
     }
 
+    public void printNome() {
+        System.out.println(nome);
+    }
+
+    public void printCognome() {
+        System.out.println("non c'è il cognome");
+    }
+
     @Override
     public String toString() {
         return "Anagrafica{" + "nome=" + nome + ", persone =\n" + persone + '}';
