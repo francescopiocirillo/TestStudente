@@ -31,6 +31,7 @@ public class Anagrafica {
 
     public void printNome() {
         System.out.println("Il nome è : " + nome + "\n");
+        System.out.println("Il secondo a capo è per mio diletto\n");
     }
 
     @Override
